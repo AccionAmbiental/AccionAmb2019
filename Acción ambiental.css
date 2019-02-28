@@ -1,0 +1,83 @@
+.logocontitulo {
+    max-width: 20%;
+    float: left;
+    vertical-align: middle;
+    opacity: 0.7;
+}
+.imagen {
+    vertical-align: middle;
+    border-style: none;
+    max-width: 70%;
+    float: middle;
+    padding: 50px;
+    margin-left: 30px;
+}
+.lista{
+    list-style: none
+}
+.clientes{
+    max-width: 70%;
+    float: left;
+    vertical-align: middle;
+    margin-left : 50px; 
+}
+.mi-titulo{
+        position:absolute;
+        top: 400px;
+        left: 400px;
+}
+.mi-imagen {
+    position: absolute;
+    top: 450px;
+    left: 100px; 
+}
+.cuerpo{
+    background: #81bcfb;
+}
+.mi-texto{
+    position: absolute;
+    top: 1100px;
+    left: 200px;
+    font-family: arial;
+    font-size: 28px;
+}
+.imagenmetas{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+.titulo1{
+    position: absolute;
+    font-weight: 900;
+}
+.columnas1{
+    position: absolute;
+    margin-top: 50px;
+    margin-right: 450px;
+    font-weight: 500;
+}
+.titulo3{
+    position: absolute;
+    margin-left: 450px;
+    font-weight: 900;
+}
+.columnas2{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-right: 600px;
+    font-weight: 500;
+}
+.titulo2{
+    position: absolute;
+    margin-top: 320px;
+    margin-left: 600px;
+    margin-right: 400px;
+    font-weight: 900;
+}
+.columnas3{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 400px;
+    font-weight: 500;
+}
