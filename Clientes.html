@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr" font-family="Gill-Sans">
+<html lang="en" dir="ltr">
 
 <head>
   <meta charset="utf-8">
   <link href="Acción ambiental.css" rel="stylesheet">
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="fuentes.css" type="text/css" rel="stylesheet">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
+
 
   <title>Acción ambiental</title>
 </head>
@@ -35,6 +37,9 @@
           <li class="nav-item">
             <a class="nav-link" href="metas.html">Metas</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Servicios.html">Servicios</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -45,13 +50,43 @@
   <section class="py-5">
     <div class="container">
       <h1>Algunos de nuestros clientes</h1>
-      <p class="lead"></p>
+      <style>
+        img {
+          opacity: 1;
+          animation: fadeIn 5s ease;
+        }
+
+        @keyframes fadeIn {
+          0% {
+            opacity: 0;
+          }
+
+          100% {
+            opacity: 1;
+          }
+        }
+
+        li {
+          display: inline-block;
+          padding: 5px;
+        }
+      </style>
+      <ul style="list-style: none;">
+        <li><img src="imagenes\cocacola.png" alt="descripcion" /></li>
+        <li><img src="imagenes\calexico.png" alt="descripcion" /></li>
+        <li><img src="imagenes\mitsubishi.png" alt="descripcion" /></li>
+        <li><img src="imagenes\chemie.png" alt="descripcion" /></li>
+        <li><img src="imagenes\gila.png" alt="descripcion" /></li>
+        <li><img src="imagenes\tecate.png" alt="descripcion" /></li>
+        <li><img src="imagenes\seglo.jpg" alt="descripcion" /></li>
+        <li><img src="imagenes\lariv.jpg" alt="descripcion" /></li>
+        <li><img src="imagenes\globex.png" alt="descripcion" /></li>
+        <li><img src="imagenes\construplan.jpg" alt="descripcion" /></li>
+        <ul>
     </div>
   </section>
 
-  <div>
-    <img class="img-fluid d-block mx-auto" src="imagenes\clientes1.jpg">
-  </div>
+
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
@@ -67,11 +102,6 @@
 
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-</body>
-
-</html>
-<script src="vendor/jquery/jquery.min.js"></script>
-<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
