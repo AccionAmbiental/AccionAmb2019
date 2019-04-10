@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" font-family="Gill-Sans">
+<html lang="en">
 
 <head>
 
@@ -13,9 +13,24 @@
 
   <link href="Acción ambiental.css" rel="stylesheet">
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
+  <link href="fuentes.css" rel="stylesheet">
 
   <link href="css/full-width-pics.css" rel="stylesheet">
+  <style>
+      img{
+        opacity: 1;
+        animation: fadeIn 5s ease;
+      }
+
+      @keyframes fadeIn{
+        0%{
+        opacity: 0;
+        }
+        100%{
+        opacity: 1;
+        }
+      }
+    </style>
 
 </head>
 
@@ -40,6 +55,9 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="metas.html">Metas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Servicios.html">Servicios</a>
           </li>
         </ul>
       </div>
@@ -80,7 +98,7 @@
   </section>
 
   <!-- Content section -->
-  <ul class="py-5">
+  <ul class="py-5" style="list-style:none">
       <div class="btn-toolbar" role="toolbar">
         <a href="mailto:leon27@gmail.com"><input type=image src="imagenes\correoe.png" width="150" height="100" ></input></a>
       <li class="col-md-2 col-sm-6 col-xs12 word-wrap fadeInRight">
