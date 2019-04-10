@@ -81,3 +81,14 @@
     margin-left: 400px;
     font-weight: 500;
 }
+.lista1 li{
+    display: inline;
+    padding-left:10px;
+     padding-right:10px;
+}
+.clientes{
+    display: inline;
+}
+.clientes1{
+    display: block;
+}
